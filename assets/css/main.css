@@ -692,6 +692,8 @@ h6 {
   color: rgba(var(--default-color-rgb), 0.3);
 }
 
+
+
 /*--------------------------------------------------------------
 # Global Sections
 --------------------------------------------------------------*/
@@ -1159,6 +1161,15 @@ section,
   color: var(--heading-color);
 }
 
+.team .container {
+  text-align: center;
+}
+
+.team .row {
+  padding: 10px;
+  justify-content: center;
+}
+
 .team .member {
   text-align: center;
   position: relative;
@@ -1236,12 +1247,23 @@ section,
   transition: left ease-in-out 0.3s;
 }
 
+.team .name-and-title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.team img{
+  width: 250px;
+  height: 200px;
+}
+
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
   --background-color: rgba(var(--accent-color-rgb), 0.03);
 }
+
 
 .clients .swiper-slide img {
   opacity: 0.5;
@@ -1254,7 +1276,7 @@ section,
 }
 
 .clients .swiper-wrapper {
-  height: auto;
+  height: 200;
 }
 
 .clients .swiper-pagination {
@@ -1271,6 +1293,21 @@ section,
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
+}
+
+.clients .swiper-wrapper {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  gap: 10;
+}
+
+.clients .swiper-wrapper .swiper-slide div {
+  margin: 0;  
+}
+
+.swiper-slide img {
+  height: 60;
 }
 
 /*--------------------------------------------------------------
