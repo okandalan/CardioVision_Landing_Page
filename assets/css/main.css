@@ -916,6 +916,7 @@ section,
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   height: 100%;
+  width: 300px;
 }
 
 .services .service-item .icon {
