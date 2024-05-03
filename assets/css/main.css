@@ -25,8 +25,8 @@
   --default-color-rgb: 33, 37, 41;
   --heading-color: #7a6960;
   --heading-color-rgb: 122, 105, 96;
-  --accent-color: #eb5d1e;
-  --accent-color-rgb: 235, 93, 30;
+  --accent-color: #5ca3ef;
+  --accent-color-rgb: 92, 163, 239;
   --contrast-color: #ffffff;
   --contrast-color-rgb: 255, 255, 255;
 }
@@ -34,9 +34,9 @@
 /* Nav Menu Colors */
 :root {
   --nav-color: #212529;
-  --nav-hover-color: #eb5d1e;
+  --nav-hover-color: #5ca3ef;
   --nav-dropdown-color: #212529;
-  --nav-dropdown-hover-color: #eb5d1e;
+  --nav-dropdown-hover-color: #5ca3ef;
   --nav-dropdown-background-color: #ffffff;
 }
 
