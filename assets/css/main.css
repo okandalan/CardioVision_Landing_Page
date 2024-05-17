@@ -92,8 +92,9 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 72px;
+  max-height: 84px;
   margin-right: 3px;
+  padding-bottom: 5px;
 }
 
 .header .logo h1 {
@@ -860,6 +861,18 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about .col-lg-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about .col-lg-6 img {
+  width: 318px;
+  height: 449px;
+  padding-top: 50px;
+}
+
 .about .about-content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -1008,6 +1021,9 @@ section,
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+  width: 384px;
+  height: 216px;
+
 }
 
 .portfolio .portfolio-content .portfolio-info {
